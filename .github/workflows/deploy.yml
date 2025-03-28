@@ -13,7 +13,8 @@ jobs:
         uses: actions/checkout@v3  
 
       - name: Validar HTML        # Usa la acción para validar HTML
-        uses: Cyb3r-Jak3/html5-validator-action@v1  
+        uses: Cyb3r-Jak3/html5-validator-action@main
+        # uses: Cyb3r-Jak3/html5-validator-action@v1  #(ERROR 404)
         with:
           file: index.html  # Archivo HTML a validar
 
